@@ -6,7 +6,7 @@ import RelatedProducts from "@/components/RelatedProducts";
 import { fetchDataFromApi } from "@/utils/api";
 import { getDiscountedPrice } from "@/utils/helpers";
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addToCart } from "@/store/cartSlice";
 
 import { ToastContainer, toast } from "react-toastify";
